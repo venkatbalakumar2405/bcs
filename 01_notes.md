@@ -18,6 +18,7 @@
 - alt+ UP-->MOVE LINES UP AND DOWN
 # BACKTICK`
 - `alt +⬆`  ->move lines up and down
+-. to convert into dev in github
 - win+.`->Emoji
 ## References
 ## use cases for markdown

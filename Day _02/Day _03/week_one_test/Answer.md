@@ -1,0 +1,1 @@
+var name= window.prompt("Enter the hero name");

@@ -15,5 +15,5 @@ console.log(10!=16)&& (18<=18)
   5/10*2
   0.5 *2=1
   # alerts will stop the  rendering  of the engine 
-  #windows .prompt
+  #window.prompt
   #windows.confirm

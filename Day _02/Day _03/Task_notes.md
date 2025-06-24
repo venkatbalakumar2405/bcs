@@ -123,3 +123,15 @@ UI BACKEND-logic is stored and finally data storage cookies local storage ,sessi
  git config-- global user.email"venkatbalakumar@gmail.com"
  if it is calm and coming again then it is working fine in linux
  source control icon initialize repository
+ git works even on not internet available
+ red indicator indicates the changes in the 
+ green color indicates what as what the changes are done
+ stage files alone will be commited 
+
+hear me out
+what git is using is it is tracking  some changes will be updated on the commit windows and commit is along with commit with differences 
+c2 and delta version 2 will be stored alone extra storage alone will be stored alone
+synch will go to online 
+alone the difference will be stored in commit 2
+only on safe stages the code will be need to be committed
+stage commit and synch and push need to be stored in git
