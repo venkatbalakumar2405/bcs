@@ -15,10 +15,10 @@ sayHello()();
  
 
 const x = ()=> "Hi"
-
-const sayHello =() ={
-    return sayHello =>console.log(sayHello)
-}
+//
+//const sayHello =() ={
+ //   return sayHello =>console.log(sayHello)
+//}
 const  sayHello =()=>() => console.log("Hello!!");
 
 
@@ -42,3 +42,18 @@ const add=(x) =>(y) =>x+y;
 //const add5=add(5);
 console.log(add5(10))
 
+//1.1
+  //TASK 1.1
+  const avengers=[
+    "HULK",
+    "IRON MAN",
+    "BLACK WIDOW",
+  "CAPTAIN AMERICA",
+  "THOR",]
+
+  function movie{
+  for (var index in avengers)
+    {
+      console.log ("`$(avengers[index]) contain,avengers[index].length ");
+  }
+}
