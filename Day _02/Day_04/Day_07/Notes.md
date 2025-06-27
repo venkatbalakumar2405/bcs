@@ -55,5 +55,28 @@ but we need bracket for two values
  if a function takes another function as argument
  second condition a function should or can return another function
  when function does not have any name it is called as anonymous function 
+ if a variable is assigned another function  is the third condition
+ if function can be treated as a values it is a firstclass citizen
+so value can be assigned in  a variable  and return from function so it similar to the properties of the value similar to function
+value can be passed as argument
+and value can be assigned
+
+Assignments  with examples for each concepts in function programming style
+1.Currying.
+2.Partial Application.
+3.Point - free style
+Default use of concepts 
+//difference and  their  interlinking concepts
+// F# - >hardcore programming
+//Haskell->used to commenting filter in facebook
+//Scala
+Error handling -will be better -Robust
+// object within array
+//pros and cons of each concept to master
+//HULK CONTAINS 4 LETTERS
+//IRON MAN  CONTAINS 8 LETTER - SO AND FORTH FOR EVERYONE
+//TASK 1.1
+// OUTPUT
+//WORK IT WORK AND WORK IT BETTER
  
 
