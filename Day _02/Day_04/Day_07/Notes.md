@@ -78,8 +78,66 @@ Error handling -will be better -Robust
 //TASK 1.1
 // OUTPUT
 //WORK IT WORK AND WORK IT BETTER
+//dx for of and for in -worst better and best
+// functionality --reverese also in for loop
+//control - for of ..,for in...,for 
+array of objects is important topics to be practised
+split and join
+join is used to join arrray into  string
+split is used by delimiter for separation
+split('')---convert into string and into array
+used to split into each characters
+empty array create and push and return
+//join ()array into string
+//split() string into array
+confirms an interview question
+array methods 
+map and filter
+cheat meal
+so it returns true or false Array.includes();
+[4,5,6].includes11 returns false
+Array.map()
+anonymous and  higher order function and 
+apply all function to all elements 
+empty array set and push in for loop
+map(n=>n*2)
+parameter is 
+map iscalling on each elemeent and 
+three observations
+1.It always returns the copy  of array
+2.map doesnot change the original array always
+rule 2
+nums length and squares length are will be same and the output length will always be same
+rule 3
+if the datatype needs to be changed only used for transforming the dataytpes
+array of numbers changed to array of strings
+ always  should be used in arrays only
+ avengrs.map(avenger =>[avenger])
+ filter
+ filter also takes function
+ hence it is acalled higher order function
+ filter 
+ the input length  is greater than  or equal to the output length
+ filter has the same return datatypes and cannot change the values within
+  it returns the copy  of array
+  use cases of map and filter if need to transform  and both function
+  no of elements are not reduced
+  array of objects is transformed to array of strings
+  once  transformed cannot be applied to maps
+  declarative way of thinking and imperative way of thinking
+  #monaco can be used to bring javascript in browser
+  finding the path is breadcrums
+  shift + button is needed for folding
+  wim editor
+  dip used to delete the paragragh
+  diw used to delete the  word
+  compose or pipe
+  currying uses one argument function 
+for of -for in-for -o
 
-
+split string into array
+coehrse the num to string  in array
+two elements  will be there as leftover elements will be not included in the array
 
  
 

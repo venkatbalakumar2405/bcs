@@ -51,9 +51,64 @@ console.log(add5(10))
   "CAPTAIN AMERICA",
   "THOR",]
 
-  function movie{
-  for (var index in avengers)
-    {
-      console.log ("`$(avengers[index]) contain,avengers[index].length ");
-  }
+    //function movie{
+    //for (var index in avengers)
+     //   {
+      //  console.log ("`$(avengers[index]) contain,avengers[index].length ");
+    //}
+    //}
+console.log("Normal for loop")
+    for( let i=0;i<avengers.length;i++)
+{
+    console.log(`${avengers[i]} contains ${avengers[1].length} letters}`);
 }
+console.log("for ..in loop")
+for (let i in avengers)
+    {
+        console.log(`${avengers[i]} contains ${avengers[i].length} letters`);
+
+}
+console.log("for...of loop")
+for (let avengers of avengers){
+    console.log(`${avengers} contains ${avengers.length}letters`);
+}
+//Task 1.2 -Loop inside printCase
+//printCast
+function printCast (avengers){
+    
+console.log("for...of loop")
+for (let avengers of avengers){
+    console.log(`${avengers} contains ${avengers.length}letters`);
+}
+}
+//Task 1.3 .1
+ printPattern("❤,5")
+ //clue :repeat()
+ const  emoti="❤";
+  function printPattern(emoti,rows)
+  {
+    for(1=0;i<rows;i++)
+    console.log(`${emoti}.repeat(i));
+  }
+
+    }
+  // Task 1.4.1
+  
+const nums = [80, 43, 72, 47, 20, 21];
+getEvenNumbers(nums);
+const getEvenNumbers=(nums)=>{}
+    const nums = [80, 43, 72, 47, 20, 21];
+
+const getEvenNumbers = (nums) => {
+  const evenNums = [];
+
+  for (let num of nums) {
+    if (num % 2 == 0) {
+      evenNums.push(num);
+    }
+  }
+
+  return evenNums;
+};
+
+console.log(getEvenNumbers(nums));

@@ -197,4 +197,4 @@ and paste by url image for insert image
 and template selection
 sli.dev-to used in markdown
 only undefined will come for nested destructuring
-only default values need to be given  first then only  
+only default values need to be given  first then only  linux and unix for mac os went for cost and money while linux came under ubuntu
