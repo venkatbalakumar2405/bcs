@@ -1,8 +1,6 @@
-const x="cool";
-if(x){
-    console.log("Awesome");
-}
-else{
-    console.log("super");
-}
+const x = "cool";
+if (x) {
+  console.log("Awesome");
+} else {
+  console.log("super");
 }

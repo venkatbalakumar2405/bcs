@@ -311,3 +311,21 @@ exponential operator=(5 **4) is 5 power 5*5*5*5
 # for testing for all developers in adapter in testing purposes .adapter means plugins.
 # Browser developers will implement
 # github of TC 39
+### 
+ const movies = [
+  { id: 1, title: "Baahubali", director: "S. S. Rajamouli", year: 2015 },
+  { id: 2, title: "Arjun Reddy", director: "Sandeep Reddy Vanga", year: 2017 },
+  { id: 3, title: "Mahanati", director: "Nag Ashwin", year: 2018 },
+  { id: 4, title: "Eega", director: "S. S. Rajamouli", year: 2012 },
+  { id: 5, title: "Jersey", director: "Gowtam Tinnanuri", year: 2019 },
+];
+
+// ===== YOUR CODE BELOW =====
+// Write a function that finds movies by director sorted by year
+const getTitlesByDirectorSortedByYear = (movies, director) => {
+  // Your code here
+  
+};
+
+console.log(JSON.stringify(getTitlesByDirectorSortedByYear(movies, "S. S. Rajamouli")));
+console.log(JSON.stringify(getTitlesByDirectorSortedByYear(movies, "Nag Ashwin")));
