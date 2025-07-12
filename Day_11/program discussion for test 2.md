@@ -329,3 +329,130 @@ const getTitlesByDirectorSortedByYear = (movies, director) => {
 
 console.log(JSON.stringify(getTitlesByDirectorSortedByYear(movies, "S. S. Rajamouli")));
 console.log(JSON.stringify(getTitlesByDirectorSortedByYear(movies, "Nag Ashwin")));
+
+## CSS -
+<!-inline ,--internal or embedded CSS ,external  CSS>
+
+<--text styling--font -size ,font-weight ,font -style>
+
+<--font family>
+<--color>---no font color or text color only color
+##  1px -dot in screens*/ = 4 dots in mac and will be done with scaling other than normal
+
+p{
+  font-size= 18 px;
+  /default value *-400*/
+  font-weight:bold;(600 or 700)  default values
+  font-style:Italic
+  (!-- generally normally paragraph should not be Italic only  quotes should be represented by italic )
+}
+## 
+  <p> </p>
+<!----paragraph selector is also known as element selector>
+class   was included 
+.highlight-- can be used for highlighting  as class selector
+withour dot is known as element selector
+once declared is enought and can be reused 
+ hobbies can be used 
+ go to inspect and in elements and in styles  and when unchecked it will remove the color
+ RCB :- or can be used as in hexadecimal format
+ and a can be used for transparency last will be overriden 
+ unicode was used for  emoti not for color
+ 0-9a-f   rgb  if all color is mixed it will be white if not it will be black
+  in according to the rgb values the maximum values will be 255
+  HSL - hue saturation lightness
+  boosing the base color is saturation ,new colors are used shown based on background
+  if saturation is zero it will become grey and when  increased it will boost the coloru
+  --human friendly
+  lightness -when it is 100 percent it will vanish and when it is zero it  black 
+  hue-  color alone will change so chose different colors
+  all colors will have difference in saturation and lightness for every unique colors
+  colors that are new and released in new colors srgb is color gamettter  srgb - the picture  that should be displayed in theatre  with color correction  so monitors  with billions of color  supported as srgb - collection of colors -- only 240 were default so bunch of colors are introduced in browsers
+-- gammetter -color range of colors --SRGB --100 % supported in monitor need to be understood -DCpi is bigger than srgB   to match with browser  and it will be show the nearest margine for colors not found 
+//syntax  and structure -revise
+//color paletter and word highlight and image with extensibility  and arrow marks  for presentation tips in ppt and need to  be incorporate in next ppt
+// polyline - used to draw with shift options extra slides with content and images without  paragraph contents
+//filter function only accepts predicate functions -will return boolean datatype ,filter ,sum and every will return boolean data type
+//flow need to be understood gradually
+Every returns true and false while filter returns true and ignores the false items for the condition
+filter will not change the data type since objects will be returned
+every,sum and includes are default functions  and logical functions  and use custom funcctions that return boolean can also be included that return  boolean 
+[] -empty array is not falsy so it return truthy
+join (" ,") using for spaces
+slice can be used (slice(o,n)) will return o to n-1 values and return array datatype
+when we use the spread operation on undefined it returns error  so assigning as moreorders=[],so it will return  finally the array
+object plus emptry string will retunr array of objects
+[4,5,6] toString()
+ will return '4,5,6
+ .join for spaces if needed
+ it should return one line function
+  find only checks the first element and return that element only
+, if it doesnot have element matching the  condition it returns undefined value
+, undefined .object  will return error cannot access so it can return values by use of ?? mark we can use the nullish coelescence it returns the type error
+n every element matching the condition
+  and accepts the predicate function
+  code pen website can be used for coding practise sessions
+  const getDishNamebyIds=(orders,...ids)=>{
+  return orders
+  filter ( order=>ids.include(order.id)
+  .map(order=> Order,dishname))}
+  .join("")
+  }
+  return ids
+  return ids.map(order=>ids.includes(order.id)?order.dishname:"unknown dish")
+  .join(",")
+  return ids.map(order=>ids.includes(order.id)[0]?order.dishname:"unknown dish"--will use the fiter for all values will get returned
+  empty array(0)- will return undefince
+  Math.max(5,6,10)-- what will return  for array of numbers 
+  since it returns not a number for three numbers
+  spread and its use case 
+  math.max(...arr)
+  without use of spread operator
+  Math.max(arr[0],arr[1])
+  5.  const listOrders(...orders)=>orders=>
+  orders.map(order=>$(order?.dishName??"unknown dish")($(order?.category?? "unknown  category')`))
+  .join(",");
+  interpolation  returns expressions it returns value
+  general rules is important
+  examples-imagination and boundaries for various examples could increase the boundaries must be extended
+  an empty object must be enlarged -this is the idealogy -
+  using box syntax and dot syntax
+  it converts the key into variable
+ by box syntax
+   by using
+  student[order.chef]="cool"
+  to grow the key is enlarging lightly
+  first step:- order.chef will be john doe for count ratings .length
+  orders.ratings.length
+  //dynamically growing the object
+  let key='name'
+  student[key]="vikki"
+  for (let order of orders){
+  let key=order.chef//"jon doe
+  //dynamic=growing{]}
+  student[key]=order.ratings.length
+  //array of objects should use only reduce not map
+  const getTotalRatingForChefs =(orders)=>{
+  }
+
+ using reduce:
+ const getTotalRatingsForchefs1=(orders)=>{
+  return orders.reduce(acc,order)=>({...acc,[order.chef]:order.ratings.lenght},{})// need to use the bracket out of the curly braces need to make javascript understand that it is not function it is an object
+  //accumulator will get overridden for every values
+
+ }
+ table for understanding hte flow
+ acc| order|result----- calculation ---justlikeliquid gold
+  //reduce is powerful
+
+// forEach can be used for looping but not returning
+while map will return  
+  
+  
+  refactoring or destructuring
+  uses the object : dishname
+  refactoring -the code must not change and to use as same as the above code
+  
+  
+  
+  
