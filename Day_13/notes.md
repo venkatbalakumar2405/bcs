@@ -148,3 +148,53 @@ Assignment:-
 smashing magazine
 # primary axis need to get through and revised  article and 2 games to be practised
 to reduce the contents for designer the  enlarged session as well used for developers
+&.hover{
+
+}
+nesting
+nth child elements-psuedo  class -numbers 1,2,3
+3n+3-=
+nth child is also given one colon:
+:: pseudo element
+position or state 
+pseudo class will denote the position
+first type of :-
+first class:-
+example case by case
+color:-
+# when you visualize you become mastery  explain by cases so learning curve improves
+# vikaasa template as well as vvc as well as exposure of IGMM
+# ease in transition ---real life in animation---ease in and ease out -acceleration in  and out
+# sample websites
+# cubic-bezier.com --ease-in and ease -out-- for timing functions 
+# align items and justify contents just like x and y: center options
+# space around and space between
+# flex direction for row and column
+# align items and justify contents with space between
+# row reverse and row column reverse -flex direction
+#  column reverse for reverse the elements
+# flow layout - block elements -primary axis in row and primary axis in column -cross axis for both primary
+ # justify content will always spilt and put in the primary axis.
+ # align items will move the item in cross axis-----justify and align items apply on parent
+  # align  self used to stretch only on upside and down movements but not side directions---apply  on child
+  # flex basis is just like width 
+  # flex  grow and shrink is available
+  # extra gap will get reduced  and flex grow is default is zero
+  # empty spaces will be divided equally plus the width but extra width is equal
+  1:ZZ2:1 ratio
+  
+  ## Flex
+  
+  - fix shrink:by 
+  - default 1:--shrink by:-
+  - flex -shrink
+  scroll bar
+  # to use color
+  - nth child concept to grey out
+
+  # semantic element#
+  -articles-sections-containers
+  -- minute observation
+  --technique apply alone
+  --li ::marker pseudo element
+  ---mixed blende mode

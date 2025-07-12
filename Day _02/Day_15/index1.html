@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary-clr: hsl(242.86deg 93.33% 64.71%);
+        --primary-text-clr: black;
+        --secondary-text-clr: white;
+        --ff-primary: Poppins, sans-serif;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 900px;
+        /* background: orange; */
+
+        margin: 0px auto;
+
+        > img {
+          height: 50px;
+        }
+
+        button {
+          border-radius: 80px;
+          color: var(--secondary-text-clr);
+          background-color: var(--primary-clr);
+          border: none;
+          padding: 8px 12px;
+        }
+      }
+
+      header nav > ul {
+        list-style: none;
+        display: flex;
+        gap: 16px;
+        padding: 0px;
+        font-family: var(--ff-primary);
+
+        li > a {
+          text-decoration: none;
+          color: var(--primary-text-clr);
+
+          &:hover {
+            color: var(--primary-clr);
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+   
+
+      <img src="C:\Users\Bala\OneDrive\Desktop\bcs\Day_014\image-gaming-growth.jpg,alt="gaming growth">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Service</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">About US</a></li>
+        </ul>
+      </nav>
+
+      <button>Get Started</button>
+    </header>
+</body>
+</html>
