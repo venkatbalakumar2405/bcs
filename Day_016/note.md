@@ -1,0 +1,91 @@
+# Position
+- Static.
+- Relative.:from where it was already it has to moved to 10px from relative of its postition
+- Absolute.
+- fixed.
+- Sticky
+- relative is a good thief like overlap and it leaves a gap as well
+- absolute given in the element while inspected
+- nearest relative place it will hide
+- while in relative the gap will be present
+- while given absolute the gap will not come in between
+- relative should be given as parent while both relative and absolute are given under sam div
+- given ul is relative 
+- when overlap is done it is obsolute only
+- pseudo element and pseudo condition
+- before and after decoration element
+- psuedo class :: double colon 
+- nth condition and position absolute
+- container and notification given so need to give absolute of which image gets moved
+- css scan
+- translate  and transform  rotate ,scale &:hover>p- child div 
+- ease in and ease out
+- overlapping task
+- static ,absolute and relative
+- paragraph -
+- fixed -bottom and top center  can be moved 
+- but in case of absolute the when scrolled the  content goes away it will not get fixed
+- transform x -50  x/2 width  of the container translate
+- paragraph width : transform:translateX(-50%_) because of maths
+- left  transform:translateX(-50%)-logic application ahead of syntax
+- questions for investigation of how extensible things iam aware of
+- smart guiding as per  tracking the  interview based on known things
+- transform: translatex(-50%) translate(-50%)-then need to say and apply
+- transform: translate (-50%,-50%)- shortcuts 
+- sticky is an hybrid property of static and  will be property based fixed  when parameters are given 10 px
+- flex side by side
+<--!
+1.static -default
+2.relative-good thief.
+3.absolute-bad thief.
+4.sticky- static+ fixed
+
+----
+ - opacity  using css 
+ - banner and use of the background url instead of img src
+ - fixing trying to fix
+ ---align center -justify content --flex
+ ---place content-- grid
+ ----object fit-color
+ ----styles-
+ ---background-size-cover Zoom in .zoom out
+ - property:contain : zoom out
+ - background -repeat:no repeat
+ --- cover -
+ --- if center has to be focus  point
+ --background -position-center
+ -background  position:
+ - background tint
+ --blende -background-blende mode:changing the color
+ -mixed blende mode -for image and background merge purpose
+ --linear gradient -used in dev tools and used in copy and paste in index file
+ --default space is contain so repeated is used
+ - 6 items in 1fr -column insided grid
+ - repeat 4 ,1fr
+ - margin(0,auto)-vertical center-ul
+ - media query- 6 item-1 fr
+ -mobile design-
+ -html -picture element -multiple src small screen -low resolution 
+ - css trickswebsite- given like  for higher resolution picture displays -big url for big -
+ - grid column 1 and column2 can be used for all the 600px- mobile responsive
+ - box sizing- contentbox-so that it will  include the content alone exluding border ,padding
+ - box sizing-borderbox- so that it will include the entire box
+- box sizing is an interview question
+- * is called universal selector
+- content box is called default content box-calculate from left border to right border
+- * border box
+- css reset -browser writes its own style of css .so it resets the margin to zero
+- now it is standardized for every browser with common css reset
+- media query can be used to flip both flex and grid as well
+- display block and display none properties used
+- for div no padding or no margin
+--backward comaptible software  eg windows -no breaking changes
+--nodelist
+--html collection- get Element by classname,get Element by tagname
+-query selector all--node list
+-query selector
+- which matches first it will display
+- create the element in javascript
+- innerHTML
+-innerText- will converts the unordered list to bullet format
+
