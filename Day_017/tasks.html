@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Window Methods</h1>
+    <script>
+      //  window.alert("Cool");
+
+      //  Lexical scope
+      //   alert("Cool");
+
+      // const result = confirm("Are you sure you want to close?");
+      // console.log("User result:", result)
+
+      //   const age = prompt("Please tell me your age");
+      //   console.log(age);
+
+      console.log("Started...");
+      //   1000ms -> 1s
+      //   Callback fn -> setTimeout -> HOF
+      //   1. Timer
+      setTimeout(() => {
+        console.log("Hi, Veera 🍊");
+      }, 1000 * 3);
+
+      //   Callback fn -> setInterval -> HOF
+      //   2. Runner
+      const msgInterval = setInterval(() => {
+        console.log("Hi, BCS 🎊");
+      }, 1000 * 2);
+
+      console.log("ID:", msgInterval);
+
+      //   3. Stopper
+      clearInterval(msgInterval);
+
+      //   Task 1.1  every 2s print 3 times and then stop
+      //   Output
+      //   "Hi, BCS 🎊"
+      //   "Hi, BCS 🎊"
+      //   "Hi, BCS 🎊"
+       setTimeout(() => {
+       console.log("Hi, BCS 🎊");
+       console.log("ID:", msgInterval);
+      }, 1000 * 6);
+      
+       
+    </script>
+  </body>
+</html>

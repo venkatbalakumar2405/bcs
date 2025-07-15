@@ -37,3 +37,6 @@ NodeList
 - callback function fn--->setTimeout-->HOF
 - set interval is also HOF ->calls the function repeatedly
 - clear interval
+- event listener - user interface 
+- aria label="start the slideshow" for  visually impaired people
+-
