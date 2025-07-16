@@ -79,13 +79,15 @@
 - media query can be used to flip both flex and grid as well
 - display block and display none properties used
 - for div no padding or no margin
---backward comaptible software  eg windows -no breaking changes
---nodelist
---html collection- get Element by classname,get Element by tagname
+-backward comaptible software  eg windows -no breaking changes
+-nodelist
+-html collection- get Element by classname,get Element by tagname
 -query selector all--node list
 -query selector
 - which matches first it will display
 - create the element in javascript
 - innerHTML
 -innerText- will converts the unordered list to bullet format
-
+-Event handlers like onclick are asynchronous functions
+-Event loop will push from queue to stack when call stack is empty
+# promise
