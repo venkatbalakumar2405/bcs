@@ -39,4 +39,6 @@ NodeList
 - clear interval
 - event listener - user interface 
 - aria label="start the slideshow" for  visually impaired people
--
+- callback hell is pattern 
+- promise concept
+- callback avoid 
