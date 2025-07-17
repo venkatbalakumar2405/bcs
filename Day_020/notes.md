@@ -77,3 +77,17 @@
   --top level- await
 - type script ="module"- it changes the entire function into asynch and it will await can be used ,top level await
 - await must be put in order to return asyn function
+- how to handle multiple promises
+- promise .all to handle all the promises at a stretch
+-  array ,array of promises with n number of fetches -multiple promises will be fired at same time
+- promise .all maintain the same order  will wait until the data gets merged from array  
+- concurrent
+- case 2 : but if anyone gets rejects ,totally is rejected: it will return uncaught in promise
+ but if catch then error message will be displayed as error is handled
+ - promise.race  which comes fast will comes faster but willnot get merged 
+ - for user experience ,it comes faster
+ - if second one is rejected ,then the first one who comes first will get displayed
+ - if first one is rejected ,then  the entire things gets rejected
+ # Assignment:-
+ -promise .all selected
+ -mockapi.io--CRUD operations like to do operations
