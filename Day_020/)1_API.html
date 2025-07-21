@@ -95,11 +95,34 @@
           })
           .then((data) => console.log(data));
       }
-      task1_4();
+      //  task1_4();
 
       // Task 1.5 📋
       // Display the Top 10 most populated countries on the screen as a list
       // Each list item should show: <Country Name> - <Population>
+      function task1_5() {
+        fetch(
+          "https://restcountries.com/v3.1/all?fields=name,flags,region,population,capital"
+        )
+          .then((res) => res.json()) //.json ()->JSON->JS object//numeric separator_10_000_0 countries-country.array
+          .then((countries) => {
+            const result = countries
+              .filter((country) => country.population > 10_000_000)
+              .sort(
+                (countryA, countryB) =>
+                  countryB.population - countryA.population
+              )
+              .map(
+                (country) => `${country.name.common} - ${country.population}`
+              );
+            const toptencountries = result.slice(0, 10);
+            //   .join("-");
+
+            return toptencountries;
+          })
+          .then((data) => console.log(data));
+      }
+      task1_5();
 
       // Task 1.6 🌐
       // Display all 250 countries on the screen with the following details:
