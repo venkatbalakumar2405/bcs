@@ -111,12 +111,19 @@
               .sort(
                 (countryA, countryB) =>
                   countryB.population - countryA.population
-              )
-              .map(
-                (country) => `${country.name.common} - ${country.population}`
-              );
+              ) .join("\n");
+              .map((country) => (
+                <li>
+                  {" "}
+                  `${country.name.common} - ${country.population}`
+
+                </li>
+              ));
             const toptencountries = result.slice(0, 10);
-            //   .join("-");
+
+            console.log(toptencountries);
+
+            //   .join("\n");
 
             return toptencountries;
           })

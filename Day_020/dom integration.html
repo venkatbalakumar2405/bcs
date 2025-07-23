@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top 10 Populated Countries</title>
+  </head>
+  <body>
+    <h2>Top 10 Populated Countries</h2>
+    <ul class="country-list">
+      <!-- List will be populated here -->
+    </ul>
+
+    <script>
+      fetch(
+        "https://restcountries.com/v3.1/all?fields=name,flags,region,population,capital"
+      )
+        .then((res) => res.json())
+        .then((countries) => {
+          const result = countries
+            .filter((country) => country.population > 10_000_000)
+            .sort((a, b) => b.population - a.population)
+            .map((country) => `${country.name.common} - ${country.population}`);
+
+          const topTen = result.slice(0, 10);
+
+          // DOM update
+          const listItems = document.querySelectorAll(".country-list"); // NodeList
+          listItems.forEach((ul) => {
+            topTen.forEach((text) => {
+              const li = document.createElement("li");
+              li.textContent = text;
+              ul.appendChild(li);
+            });
+          });
+        });
+    </script>
+  </body>
+</html>
