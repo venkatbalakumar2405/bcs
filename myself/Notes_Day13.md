@@ -1,0 +1,44 @@
+# in whatsapp we use  status and message as static
+- obsolute in realtime examples:
+- overlapping-obsolute
+- sticky table of  contents
+- Hero section
+- inspect the images just like video
+# today presentation
+- html collection
+- `document.getElementByClassName()` $ `document.getElementsByTagName()`
+-length ,item
+
+NodeList
+- `'document.QuerySelectorAll()`
+- length, item & forEach
+- Array Conversion
+- Array.from()
+- Spread (...)
+- Both HTML Collection & NodeList can be converted
+- conversion from  node list to array
+- so that we can use map.filter methods
+- inner html - safety  concerns
+-//<!XSS -type of attack- assignment//--!>
+- set attribute 
+- append - multiple values can be given
+- appendchild- only one value arguments will be taken
+- append child was first used previously before append
+- using innerHTML used in version 3 of flagtask
+- RAM- repeat autofit MinMax
+- nesting levels of javascript
+- lexical scope of variable
+- like window.alert to alert
+- tradition to follow the neat inside the design
+- function to override with function
+- set time out and set interval
+- 1000 milliseconds = 1 second
+- anonymous function call  is called by set timout function
+- callback function fn--->setTimeout-->HOF
+- set interval is also HOF ->calls the function repeatedly
+- clear interval
+- event listener - user interface 
+- aria label="start the slideshow" for  visually impaired people
+- callback hell is pattern 
+- promise concept
+- callback avoid 

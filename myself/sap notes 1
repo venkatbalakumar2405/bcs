@@ -1,0 +1,24 @@
+major -3 copy for same(development system)
+ its called land scape
+ devploment -> qna(test)->live (server)
+ RFC moving data ->TR live
+
+ group system -default ABAP
+ -install 
+
+ sandBox include new rnd ,make paractice for customer
+
+
+default
+-win Admin--os
+-sap Basics con
+-db consultant
+-ABAP Consult
+
+tx3 -3Alfa numeric no
+high -p2
+
+Sandbox->
+
+sand box develop -> qna(test)->prepoduction system->live (server)
+instance no
