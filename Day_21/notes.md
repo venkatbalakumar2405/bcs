@@ -89,3 +89,10 @@
 -props is an object data type ex name is key and the corresponding value will be allocated 
 -props.name -to access the value in the object
 - const {name}= props like object destructuring using in parameter itself passing 
+- object destructuring involves key ,value pair array destructuring uses the order
+- interpolation supports expression,expression returns a value
+- span is for bold
+- semantic elements are called as div,class 
+# react fragments 
+-jsx rule returns only one parent element
+- by default 1 column layout is grid
