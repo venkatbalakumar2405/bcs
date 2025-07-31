@@ -100,3 +100,4 @@
 # presentation component--Reusability 
 - don't repeat yourself-DRY
 - if your are within return then you must use interpolation {} in react
+- if arrow function returns one value it is called implicit return 
