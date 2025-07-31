@@ -98,3 +98,4 @@
 - by default 1 column layout is grid as 1 FR
 # smart(data)-handles data 
 # presentation component--Reusability 
+- don't repeat yourself-DRY
