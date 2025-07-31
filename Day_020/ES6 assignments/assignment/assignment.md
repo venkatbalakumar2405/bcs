@@ -164,3 +164,350 @@ Bob
 Eve
 User not found
 Deepak has no friends 🥲
+
+# Assignment no 10
+Transform an array of numbers by doubling each value using the map method.
+
+const numbers = [1, 2, 3, 4, 5];
+
+// ===== YOUR CODE BELOW =====
+// Use map to double each number
+const doubleNumbers = (numbers) => {
+  return numbers.map(num => num * 2);
+};
+
+console.log(JSON.stringify(doubleNumbers(numbers)));
+Expected output:
+[2,4,6,8,10]
+# Assignment no 11
+Filter an array to keep only even numbers using the filter method.
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// ===== YOUR CODE BELOW =====
+// Use filter to keep only even numbers
+const getEvenNumbers = (numbers) => {
+  return numbers.filter(num => num % 2 === 0);
+};
+
+console.log(JSON.stringify(getEvenNumbers(numbers)));
+Expected output:-
+
+[2,4,6,8,10]
+# Assignment no 12
+Sum all numbers in an array using the reduce method.
+const numbers = [1, 2, 3, 4, 5];
+
+// ===== YOUR CODE BELOW =====
+// Use reduce to sum all numbers
+const sumNumbers = (numbers) => {
+  return numbers.reduce((accumulator, current) => accumulator + current, 0);
+};
+
+console.log(sumNumbers(numbers));
+Expected output:-
+15
+# Assignment no 13
+Write a function that generates a summary string for the top scorer using template literals and array methods.
+const scores = [
+  { name: "Alice", score: 90 },
+  { name: "Bob", score: 85 },
+  { name: "Charlie", score: 92 },
+  { name: "Diana", score: 88 },
+];
+
+// ===== YOUR CODE BELOW =====
+// Write a function that finds and formats the top scorer
+const getTopScorer = (scores) => {
+  const topScorer = scores.reduce((max, current) =>
+    current.score > max.score ? current : max
+  );
+
+  return `${topScorer.name} scored the highest with ${topScorer.score} points.`;
+};
+
+console.log(getTopScorer(scores));
+Expected output:
+Charlie scored the highest with 92 points.
+# Assignment no 14:-
+Write a function that filters movies released after a certain year and calculates their average rating.
+const movies = [
+  {
+    id: 1,
+    title: "Baahubali",
+    director: "S. S. Rajamouli",
+    year: 2015,
+    ratings: [8, 9, 10],
+    genre: "Action",
+  },
+  {
+    id: 2,
+    title: "Arjun Reddy",
+    director: "Sandeep Reddy Vanga",
+    year: 2017,
+    ratings: [9, 8, 9],
+    genre: "Drama",
+  },
+  {
+    id: 3,
+    title: "Mahanati",
+    director: "Nag Ashwin",
+    year: 2018,
+    ratings: [10, 9, 8],
+    genre: "Biography",
+  },
+  {
+    id: 4,
+    title: "Eega",
+    director: "S. S. Rajamouli",
+    year: 2012,
+    ratings: [7, 8, 9],
+    genre: "Fantasy",
+  },
+  {
+    id: 5,
+    title: "Jersey",
+    director: "Gowtam Tinnanuri",
+    year: 2019,
+    ratings: [9, 9, 8],
+    genre: "Sports",
+  },
+];
+
+// ===== YOUR CODE BELOW =====
+// Write a function that calculates average rating after a specific year
+const getAverageRatingAfterYear = (movies, year) => {
+  const filteredRatings = movies
+    .filter(movie => movie.year > year)
+    .flatMap(movie => movie.ratings); // Flatten all ratings into one array
+
+  if (filteredRatings.length === 0) return 0;
+
+  const total = filteredRatings.reduce((sum, rating) => sum + rating, 0);
+  return total / filteredRatings.length;
+};
+
+console.log(getAverageRatingAfterYear(movies, 2016)); // should return average of movies after 2016
+console.log(getAverageRatingAfterYear(movies, 2020)); // should return 0 since no movie after 2020
+
+Expected output:-
+8.83
+No movies after the specified year
+# Assignment no 15:-
+Write a function that checks if all movies of a certain genre have ratings above a certain value using array methods.
+const movies = [
+  {
+    id: 1,
+    title: "Baahubali",
+    director: "S. S. Rajamouli",
+    year: 2015,
+    ratings: [8, 9, 10],
+    genre: "Action",
+  },
+  {
+    id: 2,
+    title: "Arjun Reddy",
+    director: "Sandeep Reddy Vanga",
+    year: 2017,
+    ratings: [9, 8, 9],
+    genre: "Drama",
+  },
+  {
+    id: 3,
+    title: "Mahanati",
+    director: "Nag Ashwin",
+    year: 2018,
+    ratings: [10, 9, 8],
+    genre: "Biography",
+  },
+  {
+    id: 4,
+    title: "Eega",
+    director: "S. S. Rajamouli",
+    year: 2012,
+    ratings: [7, 8, 9],
+    genre: "Fantasy",
+  },
+  {
+    id: 5,
+    title: "Jersey",
+    director: "Gowtam Tinnanuri",
+    year: 2019,
+    ratings: [9, 9, 8],
+    genre: "Sports",
+  },
+];
+
+// ===== YOUR CODE BELOW =====
+// Write a function that checks if all movies of a genre have high ratings
+const allRatingsAboveForGenre = (movies, rating, genre) => {
+  const genreMovies = movies.filter(movie => movie.genre === genre);
+
+  if (genreMovies.length === 0) return false;
+
+  return genreMovies.every(movie =>
+    movie.ratings.every(r => r > rating)
+  );
+};
+
+console.log(allRatingsAboveForGenre(movies, 7, "Action"));     // true
+console.log(allRatingsAboveForGenre(movies, 8, "Biography"));  // false
+Expected output:
+true
+false
+# Assignment no 17:-
+# Movie Titles and Ratings Formatter
+Write a function that returns a string with each movie's title and its ratings joined by commas using array methods.
+const movies = [
+  {
+    id: 1,
+    title: "Baahubali",
+    director: "S. S. Rajamouli",
+    year: 2015,
+    ratings: [8, 9, 10],
+    genre: "Action",
+  },
+  {
+    id: 2,
+    title: "Arjun Reddy",
+    director: "Sandeep Reddy Vanga",
+    year: 2017,
+    ratings: [9, 8, 9],
+    genre: "Drama",
+  },
+  {
+    id: 3,
+    title: "Mahanati",
+    director: "Nag Ashwin",
+    year: 2018,
+    ratings: [10, 9, 8],
+    genre: "Biography",
+  },
+];
+
+// ===== YOUR CODE BELOW =====
+// Write a function that formats movie titles with their ratings
+const getTitlesAndRatings = (movies) => {
+  return movies.map(movie => {
+    const avgRating = movie.ratings.reduce((sum, r) => sum + r, 0) / movie.ratings.length;
+    return `${movie.title} - Avg Rating: ${avgRating.toFixed(1)}`;
+  });
+};
+Expected output:-
+
+console.log(getTitlesAndRatings(movies));
+[
+  'Baahubali - Avg Rating: 9.0',
+  'Arjun Reddy - Avg Rating: 8.7',
+  'Mahanati - Avg Rating: 9.0'
+]
+# Assignment no 18:-
+Write a function that returns a single array containing all ratings of all movies using array methods.
+const movies = [
+  {
+    id: 1,
+    title: "Baahubali",
+    ratings: [8, 9, 10],
+  },
+  {
+    id: 2,
+    title: "Arjun Reddy",
+    ratings: [9, 8, 9],
+  },
+  {
+    id: 3,
+    title: "Mahanati",
+    ratings: [10, 9, 8],
+  },
+];
+
+// ===== YOUR CODE BELOW =====
+// Write a function that compiles all ratings into a single array
+const getAllRatings = (movies) => {
+  return movies.flatMap(movie => movie.ratings);
+};
+
+console.log(JSON.stringify(getAllRatings(movies)));
+Expected output:-
+[8,9,10,9,8,9,10,9,8]
+# assignment no 19:-
+Write a function that returns an array of titles of movies that have ratings above a certain threshold using array methods.
+const movies = [
+  {
+    id: 1,
+    title: "Baahubali",
+    ratings: [8, 9, 10],
+  },
+  {
+    id: 2,
+    title: "Arjun Reddy",
+    ratings: [9, 8, 9],
+  },
+  {
+    id: 3,
+    title: "Mahanati",
+    ratings: [10, 9, 8],
+  },
+  {
+    id: 4,
+    title: "Eega",
+    ratings: [7, 8, 9],
+  },
+];
+
+// ===== YOUR CODE BELOW =====
+// Write a function that finds movie titles with high ratings
+const getTitlesWithHighRatings = (movies, threshold) => {
+  return movies
+    .filter(movie => movie.ratings.some(r => r >= threshold))
+    .map(movie => movie.title);
+};
+
+console.log(JSON.stringify(getTitlesWithHighRatings(movies, 9)));
+// ["Baahubali","Arjun Reddy","Mahanati","Eega"]
+
+console.log(JSON.stringify(getTitlesWithHighRatings(movies, 10)));
+// ["Baahubali","Mahanati"]
+Expected output:-
+["Baahubali","Arjun Reddy","Mahanati","Eega"]
+["Baahubali","Mahanati"]
+# Assignment no 20:-
+Write a function that returns an array of movie titles sorted by their average ratings in descending order.
+const movies = [
+  {
+    title: "Baahubali",
+    ratings: [8, 9, 10],
+  },
+  {
+    title: "Arjun Reddy",
+    ratings: [9, 8, 9],
+  },
+  {
+    title: "Jersey",
+    ratings: [9, 9, 8],
+  },
+  {
+    title: "Mahanati",
+    ratings: [10, 9, 8],
+  },
+  {
+    title: "Eega",
+    ratings: [7, 8, 9],
+  },
+];
+
+// ===== YOUR CODE BELOW =====
+// Write a function that sorts movie titles by average rating
+const getTitlesSortedByAverageRating = (movies) => {
+  return movies
+    .map(movie => ({
+      title: movie.title,
+      avg: movie.ratings.reduce((sum, r) => sum + r, 0) / movie.ratings.length
+    }))
+    .sort((a, b) => b.avg - a.avg) // descending order
+    .map(movie => movie.title);
+};
+
+console.log(JSON.stringify(getTitlesSortedByAverageRating(movies)));
+Expected output:
+["Baahubali","Mahanati","Arjun Reddy","Jersey","Eega"]
+
