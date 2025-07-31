@@ -80,3 +80,8 @@
 - app()- component calling <APP/>- just like function calling
 - but in real life scenario - only  includes one starting type as one root component, other components can be added
 - build once rebuild many times
+- {}- interpolation used to return to UI 
+# component rules
+- pascal case - MsgBox()(two starting words in a letter must be caps)
+- return jsx
+-
