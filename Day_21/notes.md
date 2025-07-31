@@ -99,3 +99,4 @@
 # smart(data)-handles data 
 # presentation component--Reusability 
 - don't repeat yourself-DRY
+- if your are within return then you must use interpolation {} in react
