@@ -95,4 +95,6 @@
 - semantic elements are called as div,class 
 # react fragments 
 -jsx rule returns only one parent element
-- by default 1 column layout is grid
+- by default 1 column layout is grid as 1 FR
+# smart(data)-handles data 
+# presentation component--Reusability 
