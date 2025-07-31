@@ -68,4 +68,8 @@
 - class->reserved keywords
 - so we use the classname 
 - class- clasname
-- for - 
+- for - html for - highlighting the input box
+- javascript xml
+- xml vs html
+- xml is father of html
+- jsxml
