@@ -1,0 +1,55 @@
+# promise notes
+- longest time promise resolve 
+- promise all
+- shortest time promise all 
+- promise.all - 
+- promise.race-
+- promise.allsettled
+- fulfilled and value
+- swagger
+# react
+- new frontier
+- facebook used react 2012
+- google bullied  websites based on responsiveness
+- web application and website
+- Both are seen in chrome
+- website will be getting same user experience when accessed in google chrome
+- user experience varies while using webapplications
+- web app and mobile app
+-no download and cross platform - since by chrome browser AR and apple glasses will get start working
+- refresh for web app
+- update ( 2days) for mobile app
+- 3d webgi
+- using blender tool for extracting video as output
+- lighthouse
+- web app is difficult than website
+- react with next js framework
+- https://www.awwwards.com/
+- webpack and babel are translator /compiler  to change from react js to html ,css and javascript
+- developer experience will be better
+- feature of react js 
+# SPA-Single Page application
+- spa -single page application
+- mpa -multiple page application
+- duplicate 
+- common things can be done static  -concept of spa- only dynamic changes need to undergo changes
+- mpa -data exchange currency -html
+- inner html in javascript - spa -popularized by react js -json will be fetched and need to change the content in DOM -by json.queryselector-inner html likely in code pen  fetch case program
+-  replacing query selector in javascript in react js -AJAX was Asynchronorus javascript call similar to fetch in xml previously then to json format 
+- spa only the particular blocks will be  loaded with time while for traditional websites will load entire page after blank page being loaded 
+- without blanck screen being loaded it is power of spa
+- sequential experience (web) and fluid experience (mobile)
+- disadvantages of spa
+- initial load time will be larger or larger in case of spa .
+- code split- which needs to be loaded while remaining rest will be loaded in background-like lazy loading and prefetching
+-  first intention of spa will be taking time but will be loaded soon
+# Reusability
+-  Build once and reusable many times
+- Logic part was in javascript =>Logic part +UI=>components in ReactJS
+- if one cards can be built - can be reused likely in components -bigger concept reused in angular framework from react js
+- exceptional cases -logic+UI->rolling like feature for component
+- logical perspectives-one card at a time then author which changes the author's image  and as well date and time 
+- technique like hover can be used  because need to reused like in ragav sir website -category search using the various types of search component within component -logical wise what need to be altered are considerred as each component
+- 2 dimensions in terms of grid used in css using spec and flex wrap  columnwise  but here in raghav sir template it must be used rowwise 
+- mansonry layout-library used   -sticky notes  based on dashboard like wise  was build in raghavsir website -observarions- 
+-pinterst -
