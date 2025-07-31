@@ -39,13 +39,14 @@
 - spa only the particular blocks will be  loaded with time while for traditional websites will load entire page after blank page being loaded 
 - without blanck screen being loaded it is power of spa
 - sequential experience (web) and fluid experience (mobile)
-- disadvantages of spa
+- disadvantages of spa- 
+# initial loading and subsequent loading
 - initial load time will be larger or larger in case of spa .
-- code split- which needs to be loaded while remaining rest will be loaded in background-like lazy loading and prefetching
+# code split- which needs to be loaded while remaining rest will be loaded in background-like lazy loading and prefetching
 -  first intention of spa will be taking time but will be loaded soon
 # Reusability
 -  Build once and reusable many times
-- Logic part was in javascript =>Logic part +UI=>components in ReactJS
+# Logic part was in javascript =>Logic part +UI=>components in ReactJS
 - if one cards can be built - can be reused likely in components -bigger concept reused in angular framework from react js
 - exceptional cases -logic+UI->rolling like feature for component
 - logical perspectives-one card at a time then author which changes the author's image  and as well date and time 
@@ -84,4 +85,7 @@
 # component rules
 - pascal case - MsgBox()(two starting words in a letter must be caps)
 - return jsx
--
+- function customize using parameters and  values in calling function
+-props is an object data type ex name is key and the corresponding value will be allocated 
+-props.name -to access the value in the object
+- const {name}= props like object destructuring using in parameter itself passing 
