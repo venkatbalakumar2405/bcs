@@ -73,3 +73,7 @@
 - xml vs html
 - xml is father of html
 - jsxml
+- component -logic+UI
+- logic   above return 
+- within return - UI 
+- 
