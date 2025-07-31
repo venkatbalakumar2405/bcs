@@ -49,7 +49,23 @@
 - if one cards can be built - can be reused likely in components -bigger concept reused in angular framework from react js
 - exceptional cases -logic+UI->rolling like feature for component
 - logical perspectives-one card at a time then author which changes the author's image  and as well date and time 
-- technique like hover can be used  because need to reused like in ragav sir website -category search using the various types of search component within component -logical wise what need to be altered are considerred as each component
+- technique like hover and examples of event handler  can be used  because need to reused like in ragav sir website -category search using the various types of search component within component -logical wise what need to be altered are considerred as each component
 - 2 dimensions in terms of grid used in css using spec and flex wrap  columnwise  but here in raghav sir template it must be used rowwise 
 - mansonry layout-library used   -sticky notes  based on dashboard like wise  was build in raghavsir website -observarions- 
--pinterst -
+-pinterest
+- https://babeljs.io/
+- -jsxs will have codes of document.create element-js only changes html codes
+- observations done by babel  and tryout to convert into javascript - sandbox behind it creates the html conversion just like liveserver
+- observations - view page source - to get the code alone just like inspect 
+- used like in react also 
+- used to start by app
+- link to disable the javascript 
+-chrome settings.javascript- do disable- and observe the changes -
+- gaudian .com - uk newspaper
+- zoomin and zoom out for twitter  for the home and other options-responsive 
+- placeholder 
+-jsx-js
+- class->reserved keywords
+- so we use the classname 
+- class- clasname
+- for - 
