@@ -76,4 +76,7 @@
 - component -logic+UI
 - logic   above return 
 - within return - UI 
-- 
+- index.js
+- app()- component calling <APP/>- just like function calling
+- but in real life scenario - only  includes one starting type as one root component, other components can be added
+- build once rebuild many times
